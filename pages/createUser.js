@@ -13,15 +13,27 @@ export default function CreateUser() {
         </div>
 
         <div className='create-user__form'>
-          <div className='create-user__user-box'>
-            <img className='create-user__user-img' src='https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/los-angeles-skyline-at-dusk-kelley-king.jpg' />
-            <div className='create-user__user-name'>LA</div>
+          <img className='create-user__user-img' src='https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/los-angeles-skyline-at-dusk-kelley-king.jpg' />
+
+          <div className='create-user__input-group'>
+            <label>Name</label>
+
+            <input type='text' className='create-user__inputText' />
+
+            <div className='create-user__colors'>
+              <div
+                className='create-user__color create-user__color--active'
+                style={{
+                  background: 'rgb(2,27,64)',
+                  background: 'linear-gradient(135deg, rgba(2,27,64,1)11%, rgba(119,30,135,1)100%)'
+                }} />
+            </div>
           </div>
         </div>
 
         <div className='create-user__buttons'>
-          <button className='create-user__adult'>Add Adult</button>
-          <button className='create-user__kid'>Add Kid</button>
+          <button className='create-user__cancel'>Cancel</button>
+          <button className='create-user__save'>Save</button>
         </div>
       </div>
     </>

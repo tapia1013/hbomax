@@ -30,21 +30,53 @@
     font-weight: 300;
   }
 
+
   &__form {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  &__user-box {
+
+  &__input-group {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    cursor: pointer;
 
-    &:nth-child(1) {
-      margin-right: 3rem;
+    label {
+      font-size: .8rem;
+      color: white;
+      margin-bottom: 1rem;
+    }
+  }
+
+
+  &__inputText {
+    border: none;
+    border-bottom: 1px solid rgb(132, 0, 255);
+    background: transparent;
+    width: 300px;
+    padding: 10px 0;
+    margin-bottom: 2rem;
+    outline: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  &__colors {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__color {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    transition: transform .4s ease-in-out;
+
+    &--active {
+      border: 2px solid white;
     }
   }
 
@@ -56,18 +88,16 @@
     border: 3px solid rgb(132, 0, 255);
     object-fit: cover;
     object-position: center;
+    margin-right: 3rem;
   }
 
-  &__user-name {
-    color: white;
-  }
 
   &__buttons {
     margin-bottom: 2rem;
   }
 
-  &__adult,
-  &__kid {
+  &__cancel,
+  &__save {
     background: rgba(255, 255, 255, 0.2);
     border: none;
     cursor: pointer;
@@ -81,7 +111,7 @@
     transition: opacity .3s ease-in-out;
   }
 
-  &__adult {
+  &__cancel {
     opacity: .4;
     margin-right: 1rem;
 
@@ -90,7 +120,7 @@
     }
   }
 
-  &__kid {
+  &__save {
     opacity: 1;
   }
 }
