@@ -6,11 +6,11 @@ const Header = () => {
       {/* left side header */}
       <div className='top-header__left-side'>
         <div className='top-header__menu-btn'>
-          <i className='fas fa-bars' />
+          <i aria-hidden className='fas fa-bars' />
         </div>
 
         <div className='top-header__search-btn'>
-          <i className='fas fa-search' />
+          <i aria-hidden className='fas fa-search' />
         </div>
       </div>
 
