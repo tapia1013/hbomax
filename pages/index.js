@@ -3,8 +3,18 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <h1>
-      Test
-    </h1>
+    <div>
+      <div className='login-user'>
+        {/* login screen top */}
+        <div className='login-user__top'>
+          <div className='login-user__logo' />
+          <span className='login-user__title'>
+            Who Is Watching?
+          </span>
+        </div>
+
+
+      </div>
+    </div>
   )
 }
