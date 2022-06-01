@@ -27,6 +27,34 @@ export default function CreateUser() {
                   background: 'rgb(2,27,64)',
                   background: 'linear-gradient(135deg, rgba(2,27,64,1)11%, rgba(119,30,135,1)100%)'
                 }} />
+
+              <div
+                className='create-user__color'
+                style={{
+                  background: 'rgb(2,27,64)',
+                  background: 'linear-gradient(135deg, rgba(234,117,64,1)11%, rgba(119,30,135,1)100%)'
+                }} />
+
+              <div
+                className='create-user__color'
+                style={{
+                  background: 'rgb(2,27,64)',
+                  background: 'linear-gradient(135deg, rgba(25,227,164,1)11%, rgba(19,30,15,1)100%)'
+                }} />
+
+              <div
+                className='create-user__color'
+                style={{
+                  background: 'rgb(2,27,64)',
+                  background: 'linear-gradient(135deg, rgba(156,217,124,1)11%, rgba(119,30,135,1)100%)'
+                }} />
+
+              <div
+                className='create-user__color'
+                style={{
+                  background: 'rgb(2,27,64)',
+                  background: 'linear-gradient(135deg, rgba(2,27,64,1)11%, rgba(219,130,45,1)100%)'
+                }} />
             </div>
           </div>
         </div>

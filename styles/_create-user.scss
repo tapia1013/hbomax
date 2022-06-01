@@ -76,7 +76,11 @@
     transition: transform .4s ease-in-out;
 
     &--active {
-      border: 2px solid white;
+      border: 3px solid white;
+    }
+
+    &:hover {
+      transform: scale(1.5);
     }
   }
 
