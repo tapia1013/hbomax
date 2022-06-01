@@ -20,6 +20,12 @@ export default function Home() {
             <div className='login-user__user-name'>LA</div>
           </div>
         </div>
+
+        {/* login screen buttons */}
+        <div className='login-user__buttons'>
+          <button className='login-user__adult'>Add Adult</button>
+          <button className='login-user__kid'>Add Kid</button>
+        </div>
       </div>
     </>
   )
