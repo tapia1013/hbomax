@@ -1,4 +1,5 @@
 import React from 'react'
+import Account from '../Account/Account'
 
 const Header = () => {
   return (
@@ -23,6 +24,8 @@ const Header = () => {
 
         <div className='top-header__user-name'>LA</div>
       </div>
+
+      <Account />
     </header>
   )
 }
